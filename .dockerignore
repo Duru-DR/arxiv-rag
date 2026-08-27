@@ -1,0 +1,20 @@
+# Secrets — never bake into an image
+.env
+.env.*
+
+# Local venv / VCS
+.venv
+.git
+.gitignore
+
+# Caches
+__pycache__
+.pytest_cache
+.ruff_cache
+.mypy_cache
+
+# Not needed at runtime
+tests
+*.md
+.github
+docker-compose.yml
